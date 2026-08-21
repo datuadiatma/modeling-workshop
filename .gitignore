@@ -1,0 +1,25 @@
+# MyST build outputs
+_build
+
+.myst/
+
+# Node (JB2 pulls in a JS engine; nodeenv may drop these locally)
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Data you don't want in git
+*.nc
+*.h5

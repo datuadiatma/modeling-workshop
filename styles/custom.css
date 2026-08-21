@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap');
+
+/* BRISTOL FONTS */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Sora", "Helvetica Neue", Helvetica, Arial, system-ui, sans-serif;
+    font-weight: 600 !important;
+}
+
+body {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, system-ui, sans-serif;
+}
+
+/* Footer inline row: text left, CC-BY right */
+.footer-inline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+}
+
+.footer-inline-ccby {
+    margin-left: auto;
+}
+
+.footer-inline-ccby img {
+    width: 88px;
+    max-width: 30vw;
+    height: auto;
+    display: block;
+}
+
+/* Primary sidebar footer logo sizing */
+.primary-sidebar-logo img {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* NAV BAR BACKGROUND TO FSU GARNET */
+html:not(.dark) .myst-top-nav {
+    background-color: #782F40;
+}
+html.dark .myst-top-nav {
+    background-color: #782F40;
+}
+
+/* LIGHT BAR - TURN HAMBURGER AND DAY MODE SWITCHER TO WHITE */
+html.dark .myst-home-link-logo {
+    background-color: transparent !important;
+    border-radius: 0 !important;
+}
+
+html:not(.dark) .myst-top-nav button,
+html:not(.dark) .myst-top-nav [role="button"] {
+    color: #ffffff;
+    border-color: #ffffff !important;
+}
+
+html:not(.dark) .myst-top-nav button svg,
+html:not(.dark) .myst-top-nav [role="button"] svg {
+    color: currentColor;
+}
+
+/* Match dark-mode icon weight to light-mode appearance */
+html.dark .myst-top-nav button,
+html.dark .myst-top-nav [role="button"] {
+    border-width: 1.5px;
+}
+
+html.dark .myst-top-nav button svg,
+html.dark .myst-top-nav [role="button"] svg,
+html.dark .myst-top-nav button svg *,
+html.dark .myst-top-nav [role="button"] svg * {
+    stroke-width: 2.25;
+}
+
+/* DARK BAR - TURN SEARCH BAR TO WHITE */
