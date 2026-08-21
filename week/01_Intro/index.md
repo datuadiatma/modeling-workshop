@@ -15,11 +15,7 @@ After this session, you should be able to
 ---
 
 ## Additional resources
-
-Useful online material:
- - https://trchudley.github.io/geospatial-scientific-computing/
- - https://realpython.com/
- - https://youtu.be/HW29067qVWk?si=ta8bPbQ_lckCfDIr
-
-Useful textbook:
- - [Mathematical Modeling of Earth's Dynamical Systems: A Primer](https://press.princeton.edu/books/paperback/9780691145143/mathematical-modeling-of-earths-dynamical-systems)
+ - [Dr. Tom Chudley's Geospatial Computing Course](https://trchudley.github.io/geospatial-scientific-computing/)
+ - [Real Python](https://realpython.com/)
+ - [Corey Schafer's Tutorial](https://youtu.be/HW29067qVWk?si=ta8bPbQ_lckCfDIr)
+ - [Slingerland and Kump's Mathematical Modeling of Earth's Dynamical Systems: A Primer](https://press.princeton.edu/books/paperback/9780691145143/mathematical-modeling-of-earths-dynamical-systems)
