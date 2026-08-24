@@ -4,7 +4,7 @@ numbering: false
 
 # Welcome
 
-## Young - Owens Group - Fall 2026 Numerical Modeling Internal Workshop
+## Young - Owens Group | Fall 2026 Numerical Modeling Internal Workshop
 
 Prepared by __Datu Adiatma__ ([yadiatma@fsu.edu](mailto:yadiatma@fsu.edu))
 

@@ -1,4 +1,4 @@
-# Week 1: Introduction
+# Introduction
 
 Week 1 provides an overview on how to install Python on your local system, and introduces the basic of geochemical box modeling.
 

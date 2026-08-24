@@ -1,4 +1,4 @@
-# Week 3: Carbon cycle modeling
+# Carbon cycle modeling
 
 :::{danger} Come again later!
 :class: dropdown
