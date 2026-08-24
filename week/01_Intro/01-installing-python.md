@@ -80,11 +80,11 @@ Here is a screen recording of Anaconda installation on a Windows machine. MacOs 
 
 <iframe width="939" height="528" src="https://www.youtube.com/embed/sEi4pRvq8eE" title="Python Anaconda Installation Windows" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-If you can follow the instructions or video shown above that you are good to go. The goal for this week is simply having Anaconda installed on your machne. We will go over various ways to run a Python program in Week#2.
+If you can follow the instructions or video shown above then you are good! The goal for this week is simply having Python / Anaconda installed on your machne. We will go over various ways to run a Python program in Week#2.
 
 ## Why Anaconda or Miniconda
 
-Anaconda and Miniconda are Python distributions made by the same company (Anaconda Inc.). They both give you the `conda` package manager, which lets you create isolated environments so different projects can have different versions of Python and different sets of packages without stepping on each other.
+Anaconda and Miniconda are [Python distributions](https://wiki.python.org/moin/PythonDistributions.html) made by the same company (Anaconda Inc.). They both give you the `conda` package manager, which lets you create isolated environments so different projects can have different versions of Python and different sets of packages without stepping on each other.
 
 The difference between them:
 
@@ -93,7 +93,7 @@ The difference between them:
 
 :::{note} My setup
 :class: dropdown
-I personally use [Miniforge](https://github.com/conda-forge/miniforge), which is a version of Miniconda but defaults to the community-maintained conda-forge channel instead of the Anaconda's default channel. 
+I personally use the [Miniforge](https://github.com/conda-forge/miniforge) python distribution, which is a version of stripped down Anaconda that defaults to the community-maintained [conda-forge](https://conda-forge.org/) channel instead of the Anaconda's default channel (i.e., I'm installing Python libraries from a server maintained by volunteers, instead of Continuum Inc., the parent company of Anaconda and Miniconda). 
 
 The main reason I choose this option is because I don't need the bells and whistles of Anaconda and I'm comfortable doing everything from the terminal. If you're new to Python scientific programming, then I'd recommend Anaconda. You will have everything you need on day one, and you can use the graphical Navigator to launch things if the terminal feels intimidating. Nothing wrong with that.
 
