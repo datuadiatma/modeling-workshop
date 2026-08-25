@@ -6,6 +6,7 @@ The main paper reference for this week's session is [Kump and Arthur (1999)](../
 
 :::{tip} Learning Objectives
 After this session, you should be able to:
+ - Install the Anaconda Python Distribution on your local machine (i.e., laptop)
  - Derive the canonical isotope mass balance equations.
 
 _Optional, if time permits:_
@@ -19,5 +20,5 @@ _Optional, if time permits:_
 ## Additional resources
  - [Dr. Tom Chudley's Geospatial Computing Course](https://trchudley.github.io/geospatial-scientific-computing/)
  - [Real Python](https://realpython.com/)
- - [Corey Schafer's Tutorial](https://youtu.be/HW29067qVWk?si=ta8bPbQ_lckCfDIr)
- - [Slingerland and Kump's Mathematical Modeling of Earth's Dynamical Systems: A Primer](https://press.princeton.edu/books/paperback/9780691145143/mathematical-modeling-of-earths-dynamical-systems)
+ - [Corey Schafer's Jupyter Notebook Tutorial](https://youtu.be/HW29067qVWk?si=ta8bPbQ_lckCfDIr)
+ - [Slingerland and Kump's Mathematical Modeling of Earth's Dynamical Systems: A Primer](https://press.princeton.edu/books/paperback/9780691145143/mathematical-modeling-of-earths-dynamical-systems) [(access via FSU Library)](https://fsu-flvc.primo.exlibrisgroup.com/view/action/uresolver.do?operation=resolveService&package_service_id=21072912220006576&institutionId=6576&customerId=6560&VE=true)
