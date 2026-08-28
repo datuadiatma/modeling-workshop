@@ -4,7 +4,7 @@
 
 ## The general form
 
-A box model treats a reservoir as a single well-mixed volume with fluxes in and out. For an isotope system we need to track two things at once: **how much** of the element is in the box, and **what its isotopic composition is**.
+A box model treast a reservoir as a single well-mixed volume with fluxes in and out (this is the main assumption). For an isotope system we need to track two things at once: **how much** of the element is in the box, and **what its isotopic composition is**.
 
 That gives us a pair of coupled equations.
 
@@ -18,7 +18,7 @@ This is pretty intuitive and straight forward. The box (how many moles of elemen
 
 ### Isotopic mass balance
 
-The second equation describes the change in the isotopic mass balance. Each flux carries its own isotopic composition, so we track the product $R_o M_o$ — the isotopic composition of the reservoir times its size:
+The second equation describes the change in the isotopic mass balance. Each flux carries its own isotopic composition, so we track the product $R_o M_o$, the isotopic composition of the reservoir times its size:
 
 $$\frac{d(R_o M_o)}{dt} = F_{input} R_{input} - F_{output} R_{output} \tag{2}$$
 
@@ -28,7 +28,7 @@ $R$ here is a generic isotope ratio. In practice we usually work in delta notati
 
 ### Expanding with the product rule
 
-Equation 2 as written isn't yet in a form we can hand to a numerical solver (or solve it by hand), because the left-hand side is the derivative of a *product* of two things that both change with time. Applying the product rule,
+Equation 2 as written isn't yet in a form we can hand to a numerical solver (i.e., Euler method, Runge Kutta, etc), because the left-hand side is the derivative of a *product* of two things that both change with time. Applying the product rule,
 
 $$\frac{d(uv)}{dt} = u\frac{dv}{dt} + v\frac{du}{dt}$$
 
@@ -57,18 +57,18 @@ And the isotopic mass balance, with each flux carrying its own $\delta^{13}\math
 
 $$\frac{d(\delta_o M_o)}{dt} = F_w \delta_w + F_{volc} \delta_{volc} - F_{b,org} \delta_{org} - F_{b,carb} \delta_{carb} \tag{KA-2}$$
 
-Compare these to Eqs. 1 and 2 above. They are the *same two equations* — one input flux has been split into two (weathering and volcanism), one output flux into two (organic and carbonate burial), and $R$ has been written as $\delta$. The structure is identical. That's the point of learning the general form first: once you recognize it, most published box models stop looking like new material.
+If you compare these to Eqs. 1 and 2 above, you can see tha they are practically the *same two equations*. One input flux is split into two (weathering and volcanism), one output flux into two (organic and carbonate burial), and $R$ is written as $\delta$. The structure is identical.
 
 :::{admonition} In class
 :class: important
 We'll spend real time on this paper: expanding KA-2 with the product rule, deciding what $\delta_{org}$ should be relative to $\delta_{carb}$ (this is where the photosynthetic fractionation $\Delta_B$ enters), and working out what the model predicts when you perturb organic carbon burial. Then we'll code it up.
 :::
 
-## What to take away
+## Take away
 
 - Every isotope box model is two coupled ODEs: one for mass, one for isotopic mass.
 - The product rule is what connects them. The isotope equation cannot be solved without the mass equation.
-- Published models differ mostly in *how many* fluxes there are and *what sets* their isotopic compositions — not in the underlying structure.
+- Published models differ mostly in *how many* fluxes there are and *what sets* their isotopic compositions.
 
 ## References
 

@@ -4,7 +4,7 @@
 
 ## The problem
 
-Consider a hypothetical element **X** dissolved in the global ocean. The ocean is a single well-mixed box of size $M_o$, with two sources and two sinks.
+Consider a hypothetical element **X** dissolved in the global ocean. The ocean is a single well-mixed box (the main assumption of a box model) of size $M_o$, with two sources and two sinks.
 
 **Sources**
 
