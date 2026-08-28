@@ -1,5 +1,7 @@
 # Installing Python
 
+*Numerical Modeling Workshop — Fall 2026*
+
 There are many ways to install Python, and honestly, that's part of what makes getting started confusing. You'll google around and find people telling you to use `pyenv`, `uv`, `homebrew`, the official installer from python.org, or one of the conda-based distributions. They're all valid. But if you're new to this, having too many options is worse than having one, so let me just tell you what to do ([This is an xkcd comic on this very topic](https://xkcd.com/1987/)).
 
 I recommend *[Anaconda](https://en.wikipedia.org/wiki/Anaconda_(Python_distribution))*. You can skip to the section on [why Anaconda](#why-anaconda-or-miniconda) if you want the reasoning, or follow the step-by-step for your operating system below.
