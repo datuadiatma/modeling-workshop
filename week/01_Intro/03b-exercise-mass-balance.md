@@ -49,6 +49,77 @@ Work in delta notation throughout. For small fractionations the algebra of $\del
 :::{dropdown} Click to reveal the solution
 :animate: fade-in-slide-down
 
-....x....
+### (a) Mass balance
+
+$$\frac{dM_o}{dt} = F_{riv} + F_{hyd} - F_{ox} - F_{an} = 40 + 10 - 40 - 10 = 0$$  
+
+Inputs total 50 Gmol kyr⁻¹ and outputs total 50 Gmol kyr⁻¹, so the reservoir size is constant. Steady state confirmed.
+
+---
+### (b) Steady-state $\delta_o$
+
+Start from the isotopic mass balance:
+
+  
+
+$$\frac{d(\delta_o M_o)}{dt} = F_{riv}\delta_{riv} + F_{hyd}\delta_{hyd} - F_{ox}\delta_{ox} - F_{an}\delta_{anox}$$
+
+  
+
+At steady state the left-hand side is zero (both $M_o$ and $\delta_o$ are constant), so inputs must balance outputs:
+
+  
+
+$$F_{riv}\delta_{riv} + F_{hyd}\delta_{hyd} = F_{ox}\delta_{ox} + F_{anox}\delta_{anox}$$
+
+  
+
+**Left side — the integrated input.** It is convenient to collapse the two sources into a single flux-weighted composition:
+
+  
+
+$$\delta_{in} = \frac{F_{riv}\delta_{riv} + F_{hyd}\delta_{hyd}}{F_{riv} + F_{hyd}} = \frac{(40)(-0.30) + (10)(-0.60)}{50} = \frac{-12 - 6}{50} = -0.36\ ‰$$
+
+  
+
+**Right side — substitute the fractionations.** Each sink is offset from seawater, so $\delta_{ox} = \delta_o + \Delta_{ox}$ and $\delta_{anox} = \delta_o + \Delta_{anox}$. Dividing through by the total output flux $F_{out} = 50$ and writing $f_i = F_i / F_{out}$:
+
+  
+
+$$\delta_{in} = f_{ox}(\delta_o + \Delta_{ox}) + f_{anox}(\delta_o + \Delta_{anox})$$
+
+  
+
+Since $f_{ox} + f_{anox} = 1$, the $\delta_o$ terms collect:
+
+  
+
+$$\delta_{in} = \delta_o + f_{ox}\Delta_{ox} + f_{anox}\Delta_{anox}$$
+
+  
+
+$$\boxed{\;\delta_o = \delta_{in} - f_{ox}\Delta_{ox} - f_{anox}\Delta_{anox}\;}$$
+
+  
+
+With $f_{ox} = 40/50 = 0.8$, $f_{anox} = 10/50 = 0.2$:
+
+  
+
+$$\delta_o = -0.36 - (0.8)(0.00) - (0.2)(+0.60) = -0.36 - 0.12 = \mathbf{-0.48\ ‰}$$
+
+  
+
+Seawater is 0.12‰ *below* the input, because the anoxic sink preferentially removes the heavy isotope and leaves the ocean lighter.
+
+---
+### (c) Expanded anoxia
+
+Now $f_{anox} = 20/50 = 0.4$ and $f_{ox} = 30/50 = 0.6$. The inputs are unchanged, so $\delta_{in} = -0.36$‰ still:
+
+  
+
+$$\delta_o = -0.36 - (0.6)(0.00) - (0.4)(+0.60) = -0.36 - 0.24 = \mathbf{-0.60\ ‰}$$
+
 
 ::: 
