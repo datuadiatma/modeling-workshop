@@ -28,14 +28,14 @@ project:
         - file: week/01_Intro/02-numerical-model.md
         - file: week/01_Intro/03-isotope-mass-balance.md
         - file: week/01_Intro/03b-exercise-mass-balance.md
-        - file: week/01_Intro/04-primer-python.ipynb
-        - file: week/01_Intro/05-primer-notebook.ipynb
 
     - file: week/02_ODE/index.md
-      title: "Ordinary Differential Equations"
+      title: "Ordinary Differential Equations and Intro to Python"
       children:
-        - file: week/02_ODE/01-run-python.md
-        - file: week/02_ODE/02-forward-euler.md
+        - file: week/02_ODE/01-forward-euler.md
+        - file: week/02_ODE/02-primer-python.ipynb
+        - file: week/02_ODE/03-run-python.md
+        - file: week/02_ODE/04-primer-notebook.ipynb
     
     - file: week/03_Carbon/index.md
       title: "Kump & Arthur 1999 Carbon Cycle Model"
