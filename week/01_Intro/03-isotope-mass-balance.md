@@ -23,7 +23,7 @@ The second equation describes the change in the isotopic mass balance. Each flux
 $$\frac{d(R_o M_o)}{dt} = F_{input} R_{input} - F_{output} R_{output} \tag{2}$$
 
 :::{note}
-$R$ here is a generic isotope ratio. In practice we usually work in delta notation ($\delta^{13}\mathrm{C}$, $\delta^{238}\mathrm{U}$, $\epsilon^{205}\mathrm{Tl}$).
+$R$ here is a generic isotope ratio. In practice we usually work in delta or epsilon notation ($\delta^{13}\mathrm{C}$, $\delta^{238}\mathrm{U}$, $\epsilon^{205}\mathrm{Tl}$).
 :::
 
 ### Expanding with the product rule
