@@ -29,13 +29,13 @@ In practice, discretization means instead of solving the ODE to find $M_o$ at al
 
 ## Forward Euler / Euler's Method
 
-Now that we have a more *manageable* way to estimate the derivative of a function, we can re-arrange the *Eq. 4* into:
+Now that we have a more *manageable* way to estimate the derivative of a function, we can re-arrange *Eq. 4* into:
 
 $$ y(t + \Delta t) =y(t) +  \frac{dy(t)}{dt} \times \Delta t$$
 
 This equation shows that we can make a numerical solutions of ODEs by stepping forward in time: start from a known state, estimate how fast it's changing, and take a small step.
 
-In other words, if the ODE to describe the reservoir mass balance, we can estimate the size of reservoir $M_o$ at time $t1$ by plugging $t1$ into $\frac{dM_o}{dt}$ multiply the result by the time step we choose ($\Delta t$) and add the result to the previous known value (or the initial value).
+In other words, if we use the ODE to describe the reservoir mass balance as an example, we can estimate the size of reservoir $M_o$ at time $t1$ by plugging $t1$ into $\frac{dM_o}{dt}$ multiply the result by the time step we choose ($\Delta t$) and add the result to the previous known value (or the initial value).
 
 Geometrically, solving ODEs using this method can be illustrated in the figure below.
 
