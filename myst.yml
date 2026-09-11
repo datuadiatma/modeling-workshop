@@ -33,9 +33,12 @@ project:
       title: "Ordinary Differential Equations and Intro to Python"
       children:
         - file: week/02_ODE/01-forward-euler.md
-        - file: week/02_ODE/02-primer-python.ipynb
-        - file: week/02_ODE/03-run-python.md
-        - file: week/02_ODE/04-primer-notebook.ipynb
+        - file: week/02_ODE/01b-euler-excel.md
+        - file: week/02_ODE/02-runge-kutta.md
+        - file: week/02_ODE/02b-rk4-excel.md
+        - file: week/02_ODE/03-primer-python.ipynb
+        - file: week/02_ODE/04-run-python.md
+        - file: week/02_ODE/05-primer-notebook.ipynb
     
     - file: week/03_Carbon/index.md
       title: "Kump & Arthur 1999 Carbon Cycle Model"
