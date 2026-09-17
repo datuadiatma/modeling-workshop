@@ -37,12 +37,12 @@ project:
         - file: week/02_ODE/02-runge-kutta.md
         - file: week/02_ODE/02b-rk4-excel.md
     
-    - file: week/03_ODE_Python/index.md
+    - file: week/03_Ode_Python/index.md
       title: "Solving ODEs in Python"
       children:
-        - file: week/03_ODE_Python/01-primer-python.ipynb
-        - file: week/03_ODE_Python/02-run-python.md
-        - file: week/03_ODE_Python/03-primer-notebook.ipynb
+        - file: week/03_Ode_Python/01-primer-python.ipynb
+        - file: week/03_Ode_Python/02-run-python.md
+        - file: week/03_Ode_Python/03-primer-notebook.ipynb
 
 site:
   template: book-theme
