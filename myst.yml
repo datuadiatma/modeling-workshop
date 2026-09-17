@@ -30,20 +30,19 @@ project:
         - file: week/01_Intro/03b-exercise-mass-balance.md
 
     - file: week/02_ODE/index.md
-      title: "Ordinary Differential Equations and Intro to Python"
+      title: "Ordinary Differential Equations (ODEs)"
       children:
         - file: week/02_ODE/01-forward-euler.md
         - file: week/02_ODE/01b-euler-excel.md
         - file: week/02_ODE/02-runge-kutta.md
         - file: week/02_ODE/02b-rk4-excel.md
-        - file: week/02_ODE/03-primer-python.ipynb
-        - file: week/02_ODE/04-run-python.md
-        - file: week/02_ODE/05-primer-notebook.ipynb
     
-    - file: week/03_Carbon/index.md
-      title: "Kump & Arthur 1999 Carbon Cycle Model"
+    - file: week/03_ODE_Python/index.md
+      title: "Solving ODEs in Python"
       children:
-        - file: week/03_Carbon/01-excel.md
+        - file: week/03_Ode_Python/01-primer-python.ipynb
+        - file: week/03_Ode_Python/02-run-python.md
+        - file: week/03_Ode_Python/03-primer-notebook.ipynb
 
 site:
   template: book-theme
