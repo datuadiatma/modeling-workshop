@@ -1,5 +1,4 @@
-# Ordinary Differential Equations and Intro to Python
-
+# Ordinary Differential Equations
 Week 2 provides an overview on how to solve a system of Ordinary Differential Equations using the forward Euler method.
 
 The main paper reference for this week is still [Kump and Arthur (1999)](../../_assets/KumpArthur1999.pdf). We will spend some time at the begining of our workshop discussing the paper in a little bit more details. One of the things I would like to highlight during the paper discussion is the similarity between the general form of ODE equations we discussed last week and the equations shown in the paper. However, if you look at their equations more closely there are some "peculiarities". The first one is their steady state equations, (**Eq. 4**). It looks a bit different from the general form that we derrived in the class last week. See if you can derive **Eq.4** from the techniques and approaches we discussed last week. The second interesting aspect of their sets of ODEs is the fact they put weathering of silicate rocks (`Fwsil`) as a sink, instead of a source (**Eq. 13**). I would recommend paying attention to their argument, see if you can understand and follow their arguments from geologic persepective and how this can be valid mathematically.

@@ -42,6 +42,7 @@ project:
       children:
         - file: week/03_Ode_Python/01-primer-python.ipynb
         - file: week/03_Ode_Python/03-primer-notebook.ipynb
+        - file: week/03_Ode_Python/04-euler-python.md
 
     - file: week/04_Carbon/index.md
       title: "Carbon Cycle Model"
