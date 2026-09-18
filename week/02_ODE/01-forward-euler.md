@@ -39,12 +39,14 @@ In other words, if we use the ODE to describe the reservoir mass balance as an e
 
 Geometrically, solving ODEs using this method can be illustrated in the figure below.
 
-```{figure} https://upload.wikimedia.org/wikipedia/commons/e/ee/Forward_Euler_method_illustration.png
+```{figure} ../../_assets/figs/fweuler.png
 :name: fig-euler
 :width: 60%
 :align: center
 
-Forward Euler: each step follows the tangent at the start of the interval, drifting away from the true curve. Source: Wikimedia Commons.
+Forward Euler: each step follows the tangent at the start of the interval, drifting away from the true curve. 
+
+Source: Kelam, CC BY-SA 4.0 [via Wikimedia Commons](https://creativecommons.org/licenses/by-sa/4.0)
 ```
 
 This method, while being one of the oldest numerical method to solve ODE, is still one of the most popular.

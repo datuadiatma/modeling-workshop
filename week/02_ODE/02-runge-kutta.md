@@ -27,11 +27,13 @@ The two midpoint slopes get double weight because they best represent the whole 
 
 Geometrically this method can be illustrated as
 
-```{figure} https://upload.wikimedia.org/wikipedia/commons/7/7e/Runge-Kutta_slopes.svg
-:name: fig-euler
+```{figure} ../../_assets/figs/RK4.svg
+:name: fig-rk4
 :width: 60%
 :align: center
-Slopes used by the classical Runge-Kutta method (RK4). Source: Wikimedia Commons.
+Slopes used by the classical Runge-Kutta method (RK4). 
+
+Source: HilberTraum, CC BY-SA 4.0, [via Wikimedia Commons](https://creativecommons.org/licenses/by-sa/4.0)
 ```
 **Why this method is powerful:** Euler's error shrinks in proportion to $\Delta t$ (halve the step, halve the error). RK4's error shrinks in proportion to $\Delta t^4$ (halve the step, and the error drops **16 times**). It costs four slope calculations per step instead of one, but you can take much bigger steps for the same accuracy.
 

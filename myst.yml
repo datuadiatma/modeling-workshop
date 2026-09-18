@@ -55,6 +55,7 @@ site:
   #   favicon: favicon.ico
     logo: ./_assets/eoas-logo.png
     style: ./styles/custom.css
+    folders: true
 
   parts:
     footer: _site/footer.md
